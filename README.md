@@ -1,19 +1,19 @@
 # 🌎 Matthews-World  
-**Last Updated**: July 27, 2025  
+**Last Updated**: January 14th, 2026 
 
 A dynamic web application featuring weather data, interactive galleries, and responsive carousels. Built with modern frontend technologies.  
 
 ---
 
 ## 🛠 Technologies & Credits  
-<a id="credits"></a> 
+<a id="credits"></a>
 ### Core Technologies  
 - ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?logo=bootstrap) - Frontend framework  
 - ![Font Awesome](https://img.shields.io/badge/Font_Awesome-339AF0?logo=fontawesome) - Icon library  
 - [Owl Carousel 2](https://owlcarousel2.github.io/OwlCarousel2/) - Responsive content slider  
 
 ### Data & Assets  
-- [OpenWeather API](https://openweathermap.org/) - Weather data  
+- [OpenWeather API](https://openweathermap.org/) - Weather data
 - [SunCalc](https://cdn.jsdelivr.net/npm/suncalc/) - Sun and Moon data
 - [Amcharts Weather Icons](https://www.amcharts.com/free-animated-svg-weather-icons/) - Animated weather icons  
 - [Flagpedia](https://flagpedia.net/) - Country flag SVGs  
@@ -21,11 +21,12 @@ A dynamic web application featuring weather data, interactive galleries, and res
 ---
 
 ## 🚀 Deployment  
-**Live Site**: [matthews-world.netlify.app](https://matthews-world.netlify.app/)  
+**Live Site**: [matthews-world.co.uk/](https://matthews-world.co.uk/)  
 
 > 🔒 OpenWeather API Keys are not stored on GitHub (repository kept private). The API keys are stored on Netlify Environment Variables.
 
-- ![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white) - Development platform that includes build, deploy, and serverless backend services
+- ![IONOS](https://img.shields.io/badge/IONOS-Cloud%20Hosting%20%26%20Servers-003D8F?style=for-the-badge&logo=ionos&logoColor=white)
+
 
 ---
 
@@ -57,17 +58,40 @@ All images/photos and logos are either:
 
 ## Additional Notes  
 - **Flags**: Sourced from [Flagpedia](https://flagpedia.net/)  
-- **Photoshop**: Used for Green Flag creating/editing  
+- **Photoshop**: Used for Green Flag editing  
+
+---
+
+## 🎛 Owl Carousel Configuration  
+
+[Official Documentation](https://owlcarousel2.github.io/OwlCarousel2/)  
+
+### Enabling Animations  
+By default animations are disabled. To enable:  
+
+1. In HTML file:
+   - Comment out line 138
+   - Uncomment line 137
+2. For images:
+   - Change `<img src=` to `<img data-src=`
+   - Add `owl-lazy` to `class="card-img-top"`
+   (Apply to lines: 141, 147, 153, 159, 165 & 171)
+3. Change line 462 to use `owl.carousel.slider-with-animate.js`
+
+> ⚠️ With Animate enabled it will only show one slide at a time (won't work with multiple images)  
+> Applies to: `index.html`, `news.html`, `coding.html` (line numbers vary per file)  
+> [Transition effects reference](https://animate.style/)  
+
 ---
 
 ## 🖥 Screenshots  
 
 | Page      | Preview |
 |-----------|---------|
-| Home      | ![Home](https://github.com/user-attachments/assets/6c446300-b22d-4e2a-92f5-d26b6aa9a6bf) |
+| Home      |  ![Screenshot_14-1-2026_134042_matthews-world co uk](https://github.com/user-attachments/assets/47738391-1235-4827-b345-7ce1e284270b)|
 | Gallery   | ![Gallery](https://github.com/user-attachments/assets/d2617f50-6c0a-43a3-9f40-d2d17a5ff7b7) |
-| Weather   | ![Weather](https://github.com/user-attachments/assets/beeafa78-ca0a-4f8c-b81c-17390c40365c) |
-
+| Weather   | ![Weather](https://github.com/user-attachments/assets/e1834fb2-e3e6-4d2b-b717-1be559492c36) |
+ 
 ---
 
 ## 💻 Tech Stack  
@@ -86,10 +110,10 @@ All images/photos and logos are either:
 - **Content (CC BY 4.0)**:  
   - Applies to original text, graphics, and media created for Matthews-World  
   - [View Creative Commons License](https://creativecommons.org/licenses/by/4.0/)  
-- **Third-party assets**: Licensed under their respective terms (see [Credits](#credits))
+- **Third-party assets**: Licensed under their respective terms (see [Credits](#credits))  
 
 ---
 
 ## 👨‍💻 Developer  
 **Matthew Delong**  
-[GitHub Profile](https://github.com/MatthewDelong)
+[GitHub Profile](https://github.com/MatthewDelong)  
