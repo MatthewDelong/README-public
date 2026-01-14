@@ -23,7 +23,7 @@ A dynamic web application featuring weather data, interactive galleries, and res
 ## 🚀 Deployment  
 **Live Site**: [matthews-world.co.uk/](https://matthews-world.co.uk/)  
 
-> 🔒 OpenWeather API Keys are not stored on GitHub (repository kept private). The API keys are stored on Netlify Environment Variables.
+> 🔒 OpenWeather API Keys are not stored on GitHub (repository kept private). The API keys are stored elsewhere.
 
 - ![IONOS](https://img.shields.io/badge/IONOS-Cloud%20Hosting%20%26%20Servers-003D8F?style=for-the-badge&logo=ionos&logoColor=white)
 
